@@ -1,0 +1,194 @@
+.booking-form {
+  width: auto;
+  height: 890px;
+  margin: 40px auto;
+}
+
+.form {
+  width: 890px;
+  margin: 0 auto;
+}
+
+.largeTEXTbooking {
+  justify-content: left;
+  display: flex;
+  color: black;
+  font-family: Nova;
+  font-size: 60px;
+}
+
+.info-row {
+  width: auto;
+  justify-content: stretch;
+  display: flex;
+  margin: 0 auto 20px auto;
+}
+
+.info {
+  width: 344px;
+  height: 58px;
+  font-family: Gill;
+  font-size: 22px;
+  font-weight: lighter;
+  padding-left: 20px;
+  padding-top: 20px;
+  border: $site-blue solid 1px;
+}
+
+.infoLONG {
+  width: 536px;
+  height: 58px;
+  font-family: Gill;
+  font-size: 22px;
+  font-weight: lighter;
+  border: $site-blue solid 1px;
+  padding-left: 20px;
+  padding-top: 20px;
+  margin-left: 20px;
+  margin-left: 20px;
+}
+
+.info-noborder {
+  width: 140px;
+  height: 58px;
+  font-family: Gill;
+  font-size: 22px;
+  font-weight: lighter;
+  padding-top: 20px;
+  text-align: left;
+}
+
+.infoDATE {
+  width: 730px;
+  height: 58px;
+  font-family: Gill;
+  font-size: 22px;
+  font-weight: lighter;
+  border: $site-blue solid 1px;
+  padding-left: 20px;
+  padding-top: 20px;
+  margin-left: 20px;
+  margin-left: 20px;
+  justify-content: space-between;
+  display: flex;
+  img {
+    padding-bottom: 18px;
+    margin-right: 20.5px;
+  }
+}
+
+.info-combo {
+  //background-color: royalblue;
+  display: flex;
+  justify-content: space-between;
+}
+
+.info-number {
+  //background-color: salmon;
+  justify-content: space-between;
+  display: flex;
+  width: 90px;
+  height: 58px;
+  font-family: Gill;
+  font-size: 22px;
+  font-weight: lighter;
+  padding-left: 10px;
+  padding-top: 18px;
+  border: $site-blue solid 1px;
+  margin-left: 20px;
+  img {
+    padding-bottom: 15px;
+    margin-right: 10px;
+  }
+}
+
+.info-row2 {
+  //background-color: rosybrown;
+  width: auto;
+  justify-content: space-between;
+  display: flex;
+  margin-bottom: 20px;
+}
+
+.message {
+  width: auto;
+  height: 192px;
+  border: $site-blue solid 1px;
+  font-family: Gill;
+  font-size: 22px;
+  padding-left: 20px;
+  padding-top: 20px;
+}
+
+.submit {
+  width: auto;
+  height: 60.59px;
+  background-color: $site-blue;
+  margin: 40px auto;
+  text-align: center;
+  padding-top: 22px;
+  font-family: Gill;
+  font-size: 22px;
+  color: $white;
+  border-radius: 30px;
+}
+
+@media only screen and (max-width: 1060px) {
+  .form {
+    width: 800px;
+    margin: 0 auto;
+  }
+
+  .largeTEXTbooking {
+    justify-content: center;
+    display: flex;
+    color: black;
+    font-family: Thin;
+    font-size: 60px;
+  }
+
+  .info-combo {
+    display: block;
+    justify-content: space-between;
+  }
+}
+
+@media only screen and (max-width: 850px) {
+  .form {
+    width: 600px;
+    margin: 0 auto;
+  }
+
+  .largeTEXTbooking {
+    justify-content: center;
+    display: flex;
+    color: black;
+    font-family: Thin;
+    font-size: 60px;
+  }
+
+  .info-combo {
+    display: block;
+    justify-content: space-between;
+  }
+}
+
+@media only screen and (max-width: 650px) {
+  .form {
+    width: 400px;
+    margin: 0 auto;
+  }
+
+  .largeTEXTbooking {
+    justify-content: center;
+    display: flex;
+    color: black;
+    font-family: Thin;
+    font-size: 60px;
+  }
+
+  .info-combo {
+    display: block;
+    justify-content: space-between;
+  }
+}

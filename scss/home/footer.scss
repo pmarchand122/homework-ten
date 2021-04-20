@@ -1,0 +1,20 @@
+footer {
+  min-width: 980;
+  height: 100px;
+  background-color: $site-blue;
+}
+
+.footer {
+  //background-color: red;
+  max-width: 980px;
+  margin: 0 auto;
+  padding-right: 150px;
+  display: flex;
+  padding-top: 40px;
+  font-family: Gill;
+  font-size: 18px;
+  color: $white;
+  p {
+    padding-right: 100px;
+  }
+}

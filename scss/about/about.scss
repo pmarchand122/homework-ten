@@ -1,0 +1,158 @@
+.nav {
+  nav {
+    max-width: 980px;
+    height: 60px;
+    margin: 0 auto;
+    //background-color: crimson;
+    display: flex;
+    justify-content: space-between;
+    border-bottom: black solid 2px;
+    font-family: gill;
+
+    .logo {
+      width: 80px;
+      height: 20px;
+      align-self: center;
+      display: flex;
+      color: black;
+      font-family: Gill;
+      font-size: 20px;
+      margin-bottom: 20px;
+      a {
+        text-decoration: none;
+        color: black;
+      }
+    }
+
+    .links {
+      width: 350px;
+      height: 42px;
+      align-self: center;
+      display: flex;
+      font-family: Gill;
+      font-size: 15px;
+
+      a {
+        text-decoration: none;
+        color: black;
+        margin: auto;
+        border-right: 1px solid black;
+        padding-right: 10px;
+        &:last-child {
+          border-right: none;
+        }
+      }
+    }
+  }
+}
+
+.about {
+  //background-color: aquamarine;
+  max-width: 980px;
+  margin: 70px auto 200px;
+
+  .top {
+    .large-top {
+      //background-color: brown;
+      font-family: Nova;
+      font-size: 60px;
+      padding-left: 5px;
+      padding-top: 20px;
+      width: 234px;
+
+      .top-border {
+        //background-color: rebeccapurple;
+        border-top: 2px solid black;
+        max-width: 110px;
+        height: 20px;
+        margin-top: -20px;
+      }
+    }
+
+    .small-top {
+      //background-color: burlywood;
+      font-family: Gill;
+      font-size: 16px;
+      padding-top: 12px;
+    }
+  }
+
+  .bottom {
+    margin-top: 95px;
+    .large-bottom {
+      max-width: 345px;
+      font-family: Nova;
+      //background-color: blueviolet;
+      font-size: 40px;
+      padding-left: 5px;
+
+      .bottom-border {
+        //background-color: red;
+        border-top: 2px solid black;
+        max-width: 170px;
+        height: 20px;
+        margin-top: -20px;
+      }
+    }
+
+    .client {
+      max-width: 722px;
+      min-height: 150px;
+      display: flex;
+      margin-bottom: 38px;
+      font-family: Gill;
+      font-size: 16px;
+
+      .client-image {
+        width: 360px;
+        height: 150px;
+        //background-color: bisque;
+        img {
+          height: 100%;
+        }
+      }
+
+      .client1 {
+        background-image: url(../images/about-client-01.jpg);
+        background-position: center;
+        background-size: cover;
+        background-repeat: no-repeat;
+      }
+
+      .client2 {
+        background-image: url(../images/about-client-02.jpg);
+        background-position: center;
+        background-size: cover;
+        background-repeat: no-repeat;
+      }
+
+      .client-quote {
+        position: relative;
+        padding-left: 21px;
+        //background-color: blue;
+        min-height: 50px;
+        width: 100%;
+
+        p:last-of-type {
+          margin-bottom: 50px;
+        }
+
+        .client-name {
+          position: absolute;
+          right: 0;
+          bottom: 0;
+          font-family: Thin;
+          color: #79addc;
+        }
+      }
+    }
+  }
+}
+
+@media only screen and (max-width: 1060px) {
+  .about {
+    padding: 10px;
+    .bottom {
+    }
+  }
+}

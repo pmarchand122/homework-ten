@@ -1,0 +1,56 @@
+.hero {
+  width: auto;
+  height: 500px;
+  margin: 0 auto;
+  background-repeat: no-repeat;
+  background-position: center;
+  background-size: cover;
+  padding-top: 10px;
+  a {
+    text-decoration: none;
+    color: $white;
+    margin: auto;
+  }
+}
+
+.largeTEXThero {
+  //background-color: lightcoral;
+  margin-top: 80px;
+  justify-content: center;
+  display: flex;
+  color: $white;
+  font-family: Nova;
+  font-size: 60px;
+}
+
+.smallTEXThero {
+  width: 500px;
+  // margin-bottom: 30px;
+  // margin-left: 380px;
+  margin: 0 auto;
+  text-align: center;
+  justify-content: center;
+  display: flex;
+  color: $white;
+  font-family: Gill;
+  font-size: 20px;
+  font-style: italic;
+}
+
+.readMORE {
+  width: 100px;
+  height: 40px;
+  margin: 0 auto;
+  background-color: $site-blue;
+  justify-content: center;
+  padding-top: 10px;
+  display: flex;
+  color: $white;
+  font-size: 15px;
+  font-family: Gill;
+}
+
+.backgroundImage {
+  background-image: linear-gradient(to right, $overlay-black, $overlay-black),
+    url(../images/hero.jpg);
+}

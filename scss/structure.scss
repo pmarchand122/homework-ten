@@ -1,0 +1,75 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+html,
+body {
+  height: 100%;
+}
+
+h1,
+h2,
+h3,
+h4,
+h5,
+h6,
+p {
+  margin-bottom: 16px;
+}
+
+@font-face {
+  font-family: Nova;
+  src: url(fonts/ProximaNovaScOsfExtraCondensed.ttf);
+}
+
+@font-face {
+  font-family: Gill;
+  src: url(fonts/GillSans.ttc);
+}
+
+@font-face {
+  font-family: Thin;
+  src: url(fonts/Proxima-Nova-Thin.otf);
+}
+
+.largeTEXTpromo {
+  //background-color: lightcoral;
+  margin-top: 80px;
+  justify-content: center;
+  display: flex;
+  color: $white;
+  font-family: Nova;
+  font-size: 60px;
+  justify-content: center;
+  //font-weight: bold;
+}
+
+.smallTEXTpromo {
+  //background-color: lightblue;
+  margin: -20px;
+  justify-content: center;
+  display: flex;
+  color: $white;
+  font-size: 30px;
+  font-family: Nova;
+  //font-weight: bold;
+}
+
+.learnMORE {
+  height: 70px;
+  padding-top: 25px;
+  //background-color: red;
+  margin: 20px 0 auto 0;
+  background-image: url(../images/learnmore.svg);
+  background-repeat: no-repeat;
+  background-position-x: center;
+  background-position-y: center;
+  justify-content: center;
+  display: flex;
+  color: $white;
+  font-size: 15px;
+  font-family: Gill;
+  //font-weight: bold;
+}
